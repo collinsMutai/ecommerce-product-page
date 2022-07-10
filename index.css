@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 900px;
+    
+    margin: auto;
+    
+}
+
+.sneaker{
+    display: flex;
+    gap: 10px;
+}
+.left{
+    flex: 1;
+    overflow: hidden;
+    gap: 20px;
+    margin-right: 20px;
+    
+}
+.main-image{
+    width: 100%;
+    height: 400px;
+}
+.main-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+}
+.gallery{
+display: flex;
+gap: 20px;
+}
+.gallery-image{
+    margin-top: 20px;
+    
+}
+.gallery .gallery-image{
+    flex: 1;
+}
+.gallery .gallery-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* right section */
+.right{
+    flex: 1;
+    margin-left: 20px;
+}
+.right h3{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #DD7339;
+    margin-bottom: 10px;
+    
+} 
+.right h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #24292E;
+    margin-bottom: 30px;
+}
+.right p {
+    font-size: 15px;
+    line-height: 1.3;
+    color: #737373;
+}
+.price{
+    display: flex;
+    gap: 10px;
+}
+.discount-price  {
+    font-size: 14px;
+    font-weight: 600;
+    color: #24292E;
+}
+.discount{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #f7d69c;
+    color: #DD7339;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+/* buttons */
+.buttons{
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+.buttons button{
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn-gray{
+    background: #d3d3d3;
+    width: 150px;
+    height: 50px;
+}
+.btn-orange{
+    background: #E0763B;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+}
+.navbar{
+    display: flex;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 20px 15px;
+}
+.icon-image{
+    display: flex;
+    margin-left: 15%;
+    padding: 10%;
+    /* margin-left: 150px; */
+}
+.cart-avatar{
+    justify-content: flex-end;
+}
