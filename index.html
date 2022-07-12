@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link type="text/css" href="/index.css" rel="stylesheet" />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Product Page</title>
   </head>
 
@@ -12,18 +19,26 @@
     <div class="container">
       <!-- navbar -->
       <div class="navbar">
-        <div class="nav">
-          <ul style="list-style-type: none">
-            <li>
+        <div class="left-nav">
+          <nav>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <div class="logo">
               <img src="images/logo.svg" />
-            </li>
-            <li>Collections</li>
-            <li>Men</li>
-            <li>Women</li>
-            <li>About</li>
-            <li>Contact</li>
-          </ul>
+            </div>
+            <!--  -->
+            <ul style="list-style-type: none">
+              <li>Collections</li>
+              <li>Men</li>
+              <li>Women</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </nav>
         </div>
+
         <div class="icon-image">
           <div>
             <img class="icon-image-cart" src="images/icon-cart.svg" />
@@ -38,6 +53,7 @@
         </div>
       </div>
       <hr class="line" />
+      <!-- body -->
       <div class="sneaker">
         <div class="left">
           <div class="main-image">
@@ -58,6 +74,7 @@
             </div>
           </div>
         </div>
+
         <div class="right">
           <div>
             <h3>Lorem ipsum dolor sit amet.</h3>
